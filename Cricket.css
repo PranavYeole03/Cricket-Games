@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+
+  background-image:
+    linear-gradient(rgba(151, 198, 202, 0.45), rgba(202, 17, 230, 0.232)),
+    url("bg.jpg"); /* background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+  margin: 0;
+
+  display: center;
+  flex-direction: column;   /* important for heading + buttons */
+  justify-content: center;
+  align-items: center;
+
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+/* Buttons */
+.choice-button {
+  height: 100px;
+  width: 100px;
+  border: none;
+  margin: 10px;
+  background-color: rgb(164, 212, 130);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Images inside buttons */
+.choice-image {
+  height: 75px;
+}
+
+/* Optional hover effect */
+.choice-button:hover {
+  transform: scale(1.08);
+  transition: transform 0.2s ease;
+}
